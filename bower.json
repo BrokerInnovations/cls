@@ -1,0 +1,23 @@
+{
+  "name": "cls",
+  "description": "Centralized Login Screen to Manage all internal processes/pages",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+   "font-awesome": "^4.7.0",
+   "jquery": "^3.1.1",
+   "angular": "^1.6.1",
+   "bootstrap": "^3.3.7",
+   "angular-ui-router": "^0.4.2",
+   "less": "^2.7.2",
+   "angular-animate": "^1.6.1"
+ }
+}

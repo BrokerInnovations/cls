@@ -1,0 +1,26 @@
+<div>
+  <header>
+    <div class="row text-center header-class">
+      <img src="images/homelogo.png" alt="Logo" class="text-center col-md-1 col-md-offset-1 col-sm-2 col-xs-3 img-responsive">
+      <span class="col-md-9 col-sm-8 col-xs-6 padding-top">Centralized Login Screen</span>
+      <span class="btn btn-sm col-md-1 col-sm-2 col-xs-3 padding-top" ng-click="homeVm.logout()">Logout</span>
+    </div>
+  </header>
+  <div class="row">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="form-group search">
+          <input type="text" class="form-control" placeholder="Search" ng-model="homeVm.search">
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="home">
+    <div ng-repeat="item in homeVm.tools | filter:{name: homeVm.search} as results" class="tool-wrapper animate-if">
+      <tool name="item.name" ng-click="homeVm.redirect(item.link)"></tool>
+    </div>
+    <div>
+      <h4 ng-if="results.length==0">Check again! Your search doesnt match any tool</h4>
+    </div>
+  </div>
+</div>
