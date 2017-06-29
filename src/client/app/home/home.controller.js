@@ -17,44 +17,44 @@
             {
             name: 'PO Queue',
             link: 'http://brokerinnovations.net/ticketgroup/poqueue.php',
-            user: 'ticketgroup',
-            password: 'Angels2002'
+            user: '',
+            password: ''
          },
         {
             name: 'Pricing Queue',
             link: 'http://brokerinnovations.net/ticketgroup/pricequeue.php',
-            user: 'ticketgroup',
-            password: 'Angels2002'
+            user: '',
+            password: ''
         },
         {
             name: 'Pricing Tool',
             link: 'http://starstrucktickets.info/cws_pricing/',
-            user: 'ticketgroup',
-            password: 'Angels2002'
+            user: '',
+            password: ''
         },
         {
             name: 'Live Order Queue',
             link: 'http://brokerinnovations.net/ticketgroup/liveorder/live_order.php',
-            user: 'ticketgroup',
-            password: 'Angels2002'
+            user: '',
+            password: ''
         },
         {
             name: 'Live Order Queue User Management',
             link: 'http://brokerinnovations.net/ticketgroup/liveorder/add_user.php',
-            user: 'ticketgroup',
-            password: 'Angels2002'
+            user: '',
+            password: ''
         },
         {
             name: 'SST Dropbox',
             link: 'www.dropbox.com',
-            user: 'tickets@starstrucktickets.net',
-            password: 'SST2TTG'
+            user: '',
+            password: ''
         },
         {
             name: 'Bitrix24 / Tech Backlog',
             link: 'http://brokerinnovations.bitrix24.com/workgroups/group/8/tasks/',
-            user: 'marty@theticketgrp.com',
-            password: 'Angels2002'
+            user: '',
+            password: ''
         }
     ];
         function redirect(link) {
